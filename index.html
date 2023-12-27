@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizfunnel</title>
+    <link rel="icon" type="image/x-icon" href="assests/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav"
+            class="mt-3 md:mt-0 text-base md:text-2xl flex justify-between px-[2vw] py-[1.2vw] backdrop-filter backdrop-blur-sm bg-opacity-10 sticky top-0 bg-[#101110] z-[999] items-center">
+            <div id="firstnav">
+                <a href="#" class="flex gap-2 items-center"> <img src="assests/logo.jpg" alt=""
+                        class="w-[30px] md:w-[40px] rounded-full">
+                    <span>Bizfunnel</span></a>
+            </div>
+            <div id="secondnav" class=" hidden md:flex gap-[3vw]">
+                <a href="#"
+                    class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Home</a>
+
+                <a href="#"
+                    class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Features</a>
+                <a href="#"
+                    class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Templates</a>
+                <a href="#"
+                    class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Pricing</a>
+            </div>
+            <div id="thirdnav" class="text-xs md:text-base flex gap-[2vw]">
+                <button
+                    class="px-[7px] md:px-[1vw]  py-[5px] md:py-[0.5vw] bg-[#2C2A2C] border-[1px] border-gray-500 hover:border-[#FEFEFF] rounded-md duration-100">Log
+                    In</button>
+                <a href="#_"
+                    class="relative inline-flex items-center justify-center px-2 py-1 md:px-6 md:py-3 md:font-medium tracking-tighter text-[#FEFEFF] bg-gray-800 rounded-md group">
+                    <span
+                        class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-green-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
+                    <span class="absolute inset-0 w-full h-full bg-[#FEFEFF] rounded-md "></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-green-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
+                    <span
+                        class="relative text-green-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-[#FEFEFF]">Buy
+                        Now</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="hero" class="my-[3vw] md:mt-[4vw] mt-[20px]">
+            <div id="firsthero" class="flex flex-col justify-center items-center mx-auto">
+                <h1 class="opacity-80 md:text-xl text-sm">⚡ NO Coding; AI-Powered 🤯</h1>
+                <h1
+                    class="text-[25px] md:text-[4.5vw] font-bold leading-[1.3] md:px-0 px-5 text-center md:mt-0 mt-[7px]">
+                    Launch high converting
+                    <span class="text">Landing</span>
+                </h1>
+                <h1 class="text-[25px] md:text-[4.5vw] font-bold leading-[1.2]"><span
+                        class="text-green-600">Pages</span> in 7 Minutes!
+                </h1>
+
+                <img class="w-[150px] md:w-[250px] opacity-70"
+                    src="https://res.cloudinary.com/lpmaker/image/upload/v1687419114/Line-8_ghuujj.png" alt="signature">
+
+            </div>
+            <div id="secondhero" class="flex mt-[20px] md:mt-[2vw] px-[7vw] justify-center">
+                <div class="flex flex-col md:gap-1">
+                    <div class="text-center">
+                        <i class="ri-folder-cloud-fill md:text-5xl"></i>
+                        <p class="text-[10px] md:text-lg">Templates</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="ri-folder-2-fill md:text-5xl"></i>
+                        <p class="text-[10px] md:text-lg">Templates</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="ri-upload-cloud-fill md:text-5xl"></i>
+                        <p class="text-[10px] md:text-lg">Templates</p>
+                    </div>
+                    <div class="translate-x-7 -translate-y-5 md:-translate-y-14 md:translate-x-20  z-20">
+                        <div
+                            class="p-1 md:p-5 bg-white rounded-sm md:rounded-xl backdrop-filter backdrop-blur-sm bg-opacity-10 bouncing-element">
+                            <img src="assests/course.jpg" alt="course" class="md:rounded-2xl">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col h-fit md:h-auto justify-center items-center  py-5 md:px-14 rounded-3xl  border-gray-700 border-2 backdrop-filter backdrop-blur-sm bg-opacity-10 bg-gray-600 ">
+                    <img src="assests/instructor.jpg" alt="" class="w-[900px] rounded-xl">
+                    <i class="ri-play-circle-line text-xl md:text-7xl absolute"></i>
+                </div>
+                <div class="my-auto -translate-x-5 md:-translate-x-16">
+                    <div
+                        class="p-1 md:p-5 rounded-full bg-white backdrop-filter backdrop-blur-sm bg-opacity-10  bouncing-element">
+                        <img src="assests/logo.jpg" alt="" class="w-[150px] md:w-[200px] rounded-full ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="prebook"
+            class="mx-auto px-[25px] md:px-0 text-center text-sm md:text-2xl flex flex-col items-center justify-center md:gap-2 ">
+            <p>Introducing Bizfunnel: The Ultimate AI-Powered Landing Page builder that requires no</p>
+            <p>knowledge of Coding,
+                sales & Marketing or even copywriting to build high converting</p>
+            <p>Landing pages!</p>
+
+            <div
+                class="flex flex-col md:flex-row border-[1px] border-gray-500 bg-[#232223] mt-[3vw] pr-[3vw] py-[1vw] rounded-2xl">
+                <div class="flex justify-center">
+                    <img src="https://res.cloudinary.com/lpmaker/image/upload/v1687435494/My_project_8_1_v5jaoz.png"
+                        alt="cartoonimage" class="w-[70%] md:w-auto">
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <a href="#_"
+                        class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-green-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-green-500">
+                        <span
+                            class="absolute inset-0 w-full h-full bg-gradient-to-br from-green-600 via-green-600 to-green-800"></span>
+                        <span
+                            class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-green-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+                        <span class="relative text-white text-xs md:text-base">Limited Lifetime Offer</span>
+                    </a>
+                    <p class="font-bold py-[2vw]">Subscribe Once; Use Forever</p>
+                    <p class="text-xl md:text-3xl opacity-50 tracking-wide">Become Our First 100 Customer And Never Pay
+                    </p>
+                    <p class="text-xl md:text-3xl opacity-50 tracking-wide">Monthly Subscription Fees</p>
+                    <i class="ri-arrow-down-s-line text-xl md:text-4xl"></i>
+                    <a href="#_"
+                        class=" rounded-2xl px-3 py-2 md:px-10 md:py-5 overflow-hidden group bg-green-500 relative hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 text-white hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300 mb-[20px] md:mb-0">
+                        <span
+                            class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span class="md:text-xl">Pre-Book your lifetime Membership Now</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="rating" class="flex flex-col md:flex-row gap-2 mt-[3vw] items-center">
+                <div>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
+
+                    <i class="ri-star-half-s-line text-yellow-400 md:text-2xl text-4xl"></i>
+                </div>
+                <p class="text-sm md:text-base font-semibold opacity-80">4.8 out of 5 (review rating) Over 1,200+
+                    reviews</p>
+            </div>
+        </div>
+
+        <div id="main2" class="px-[9.5vw] relative">
+            <div id="marqueeEffect" class="mt-[30px] md:mt-[3vw] ">
+                <h1 class="text-center text-3xl md:text-5xl font-semibold">More Lead, Better Conversion & 10x Revenue in
+                    just 7
+                    minutes with <span class="text">Bizfunnel landing pages!</span></h1>
+
+                <div class="-mx-[9.5vw] flex flex-col justify-center items-center mt-[3vw]">
+                    <div class="stripe opacity-40">
+                        <div class="container">
+                            <div class="elem1">
+                                <div class="photo ">
+                                    <img src="assests/demosite1.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+                            </div>
+                            <div class="elem1">
+                                <div class="photo">
+                                    <img src="assests/demosite2.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+                            </div>
+                            <div class="elem1">
+                                <div class="photo">
+                                    <img src="assests/demosite3.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+
+                            </div>
+                            <div class="elem1">
+                                <div class="photo ">
+                                    <img src="assests/demosite1.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+
+                            </div>
+                            <div class="elem1">
+                                <div class="photo">
+                                    <img src="assests/demosite2.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+                            </div>
+                            <div class="elem1">
+                                <div class="photo">
+                                    <img src="assests/demosite3.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stripe opacity-40">
+                        <div class="container">
+                            <div class="elem2">
+                                <div class="photo">
+                                    <img src="assests/demosite1.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+                            </div>
+                            <div class="elem2">
+                                <div class="photo">
+                                    <img src="assests/demosite2.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+                            </div>
+                            <div class="elem2">
+                                <div class="photo">
+                                    <img src="assests/demosite3.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+
+                            </div>
+                            <div class="elem2">
+                                <div class="photo ">
+                                    <img src="assests/demosite1.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+
+                            </div>
+                            <div class="elem2">
+                                <div class="photo">
+                                    <img src="assests/demosite2.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+                            </div>
+                            <div class="elem2">
+                                <div class="photo">
+                                    <img src="assests/demosite3.jpg" alt="" class="rounded-[5px] md:rounded-[20px]">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="absolute">
+                        <img src="assests/character.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="marketing"
+                class="flex md:flex-row flex-col px-[2vw] w-full rounded-t-[25px]  justify-between mt-[6vw]">
+                <div class="md:w-[55%] px-[3vw] flex flex-col items-center md:items-start">
+                    <h1 class="text-2xl md:text-[3vw] leading-[1.2] md:leading-[1] font-[500] my-[3vw]">Track Data from
+                        all platforms, like Meta Ads,
+                        Google Ads for better tracking, optimization &
+                        Scaling
+                    </h1>
+                    <p class="text-xs md:text-2xl md:font-[400] my-[2vw]">Revolutionize the way you utilize data and AI
+                        to enhance
+                        your Traffic and Sales, while minimizing
+                        CPC
+                        and CPL to boost your profitability. Data is the new gold, and Bizfunnel assists you in tracking
+                        data
+                        from all advertising platforms for improved optimization, tracking, and scaling. It has never
+                        been
+                        easier to make data-driven decisions.</p>
+                    <a href="#_"
+                        class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-gray-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-gray-100 ">
+                        <span
+                            class="absolute inset-0 w-full h-full bg-gradient-to-br from-gray-600 via-gray-200 to-gray-600"></span>
+                        <span
+                            class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-gray-100 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+                        <span class="relative text-green-800 text-xs md:text-xl font-bold">Prebook Now</span>
+                    </a>
+
+                </div>
+                <div class=" object-cover flex flex-col justify-center  mx-auto mt-[20px] md:mt-0">
+
+
+                    <div
+                        class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
+                        <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white dark:bg-gray-800">
+                            <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png"
+                                class="dark:hidden h-[156px] md:h-[278px] w-full rounded-xl" alt="">
+                            <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen-dark.png"
+                                class="hidden dark:block h-[156px] md:h-[278px] w-full rounded-lg" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl rounded-t-sm h-[17px] max-w-[351px] md:h-[21px] md:max-w-[597px]">
+                        <div
+                            class="absolute left-1/2 top-0 -translate-x-1/2 rounded-b-xl w-[56px] h-[5px] md:w-[96px] md:h-[8px] bg-gray-800">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div id="morefeatures" class="flex flex-col justify-center items-center mx-auto mt-[6vw] text-center">
+                <h1 class="text-2xl md:text-7xl font-bold">There is more that</h1>
+                <h1 class="text-2xl md:text-7xl font-bold">Bizfunnel can do for you</h1>
+                <p class=" md:text-2xl md:font-semibold mt-[3vw]">With Bizfunnel, you not only sell but also entertain
+                    your
+                    customers without writing</p>
+                <p class=" md:text-2xl md:font-semibold text-center"> complex code, designing graphic or writing copies.
+                    <span class="text-green-600">Bizfunnel's AI handles all of that for you
+                        effortlessly.</span>
+                </p>
+
+                <div id="features" class="my-[3vw] flex flex-col md:flex-row justify-between gap-7 md:gap-10">
+                    <div class=" borderSpecial p-[2px] rounded-2xl w-[300px] ">
+                        <div
+                            class="bg-[#151414] rounded-2xl flex flex-col justify-center items-center mx-auto p-6 gap-5 h-[390px]">
+                            <img src="assests/ecommerce.jpg" alt="" class="border-[2px] border-green-600 rounded-2xl">
+                            <h2 class="font-bold text-green-700 text-2xl">1000+ Templates</h2>
+                            <p class="text-center">1000+ Tested & Proven templates for high conversion and superior
+                                engagement</p>
+                        </div>
+                    </div>
+
+                    <div class=" borderSpecial p-[2px] rounded-2xl w-[300px]">
+                        <div
+                            class="bg-[#151414] rounded-2xl flex flex-col justify-center items-center mx-auto p-6 gap-5 h-[390px]">
+                            <img src="https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                alt="" class="border-[2px] border-green-600 rounded-2xl">
+                            <h2 class="font-bold text-green-700 text-2xl">Artificial Intelligence</h2>
+                            <p class="text-center">Bizfunnel's AI crafts high-converting copies for your product
+                                effortlessly. </p>
+                        </div>
+                    </div>
+
+                    <div class=" borderSpecial p-[2px] rounded-2xl w-[300px]">
+                        <div
+                            class="bg-[#151414] rounded-2xl flex flex-col justify-center items-center mx-auto p-6 gap-5 h-[390px]">
+                            <img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                alt="" class="border-[2px] border-green-600 rounded-2xl">
+                            <h2 class="font-bold text-green-700 text-2xl">Speed Optimization</h2>
+                            <p class="text-center">Experience seamless and lightning-fast loading times for your landing
+                                pages with automated speed optimization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="twohandes" class="mt-[6vw] flex flex-col justify-center items-center">
+                <h1 class="text-lg md:text-5xl font-semibold">Convert 🚀 like Crazy without Hiring a
+                    <h1 class="text-xl md:text-5xl font-bold text">Copywriter!</h1>
+                </h1>
+                <div class="mt-[5vw] flex md:flex-row flex-col justify-center gap-10 ">
+                    <div class="md:w-[35%]">
+                        <h1 class="text-xl md:text-4xl font-bold text-center md:text-left">Create Compelling, Engaging &
+                            Converting Copies
+                            within Minute
+                            without hiring copywriter</h1>
+                        <p class="text-xs md:text-2xl md:font-normal my-[3vw] text-center md:text-left">Bizfunnel's AI
+                            is
+                            expertly trained to
+                            generate persuasive
+                            copy that perfectly matches your
+                            brand's voice, ensuring it feels authentic. With lightning-fast speed, it delivers
+                            attention-grabbing headlines, converting bullet points, and compelling descriptions.</p>
+                        <div class="flex justify-center md:justify-start">
+                            <a href="#_"
+                                class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-green-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-green-500 ">
+                                <span
+                                    class="absolute inset-0 w-full h-full bg-gradient-to-br from-green-600 via-green-600 to-green-800"></span>
+                                <span
+                                    class="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-green-500 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+                                <span class="relative text-white text-xs md:text-xl">Pre-Book Now!</span>
+                            </a>
+                        </div>
+
+                        <div
+                            class="mt-[20px] md:mt-[3vw] bg-[#1C1B26] p-4 md:p-8 rounded-xl w-60 md:w-80 flex flex-col gap-2 md:gap-5 md:translate-x-52 ml-auto md:ml-0">
+                            <h2 class="md:text-2xl font-semibold text-center">AI Content 🤯</h2>
+                            <p class="text-xs md:text-base text-[#88898A] font-bold">Title</p>
+                            <div class="h-6 md:h-9 w-full bg-[#88898A] rounded-lg"></div>
+                            <p class="text-xs md:text-base text-[#88898A] font-bold">Description</p>
+                            <div class="h-20 md:h-40 w-full bg-[#88898A] rounded-lg"></div>
+                            <div
+                                class="md:text-4xl text-black bg-[#FEFFFE]  text-center rounded-lg py-2 md:py-3 font-semibold">
+                                Create Now !</div>
+                        </div>
+
+                        <div>
+                            <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(15).webp" alt="firsthand"
+                                class="-mx-[16vw] -translate-y-32 md:-translate-y-0">
+                        </div>
+                    </div>
+                    <div class="md:w-[50%]">
+                        <div class="max-h-[70vh] md:max-h-[200vh] scroll-container rounded-2xl">
+                            <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(24).webp" alt="">
+                        </div>
+
+                        <div class="hidden md:block ">
+
+                            <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(30).webp" alt=""
+                                class="mx-[14vw] -translate-y-6 ">
+
+                            <div
+                                class="max-h-[370px] scroll-container -translate-y-[470px] translate-x-[275px] rounded-2xl ">
+                                <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(22).webp" alt=""
+                                    class="w-[170px]  rounded-2xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="slider"
+                class="relative mt-[20px] md:mt-[4vw] flex flex-col md:w-[900px] mx-auto bg-[#2C272A] border border-gray-500 rounded-2xl">
+                <div class="flex justify-center items-center ">
+                    <div class="mySlides flex md:flex-row flex-col justify-center items-center">
+
+                        <div class="py-4 px-8">
+                            <h2 class="md:text-3xl font-[500]">
+                                Experience the Power of WhatsApp Marketing: Connect your Landing Page with
+                                WhatsApp
+                                within Second
+                            </h2>
+                            <div class="text-sm md:text-xl my-[2vw]">
+                                Leverage the power of Whatsapp automation to connect personally with your
+                                audience
+                                and skyrocket your conversion rate.
+                            </div>
+                            <div class="text-xs md:text-xl flex flex-col gap-1">
+                                <p>✅ Instant messages & Follow up</p>
+                                <p>✅ Personalised messages</p>
+                                <p>✅ Instant Reply</p>
+                                <p>✅ 24x7 supports</p>
+                                <p>✅ Increases conversion</p>
+                            </div>
+                        </div>
+                        <img class="px-3  w-[200px] md:w-[400px] my-auto" src="assests/marketing2.png">
+                    </div>
+                    <div class="mySlides flex md:flex-row flex-col justify-center items-center">
+
+                        <div class="py-4 px-8">
+                            <h2 class="md:text-3xl font-[500]">
+                                Experience the Power of WhatsApp Marketing: Connect your Landing Page with
+                                WhatsApp
+                                within Second
+                            </h2>
+                            <div class="text-sm md:text-xl my-[2vw]">
+                                Leverage the power of Whatsapp automation to connect personally with your
+                                audience
+                                and skyrocket your conversion rate.
+                            </div>
+                            <div class="text-xs md:text-xl flex flex-col gap-1">
+                                <p>✅ Instant messages & Follow up</p>
+                                <p>✅ Personalised messages</p>
+                                <p>✅ Instant Reply</p>
+                                <p>✅ 24x7 supports</p>
+                                <p>✅ Increases conversion</p>
+                            </div>
+                        </div>
+                        <img class="px-3 w-[200px] md:w-[400px] my-auto" src="assests/marketing1.png">
+                    </div>
+                    <div class="mySlides flex md:flex-row flex-col justify-center items-center">
+
+                        <div class="py-4 px-8">
+                            <h2 class="md:text-3xl font-[500]">
+                                Experience the Power of WhatsApp Marketing: Connect your Landing Page with
+                                WhatsApp
+                                within Second
+                            </h2>
+                            <div class="text-sm md:text-xl my-[2vw]">
+                                Leverage the power of Whatsapp automation to connect personally with your
+                                audience
+                                and skyrocket your conversion rate.
+                            </div>
+                            <div class="text-xs md:text-xl flex flex-col gap-1">
+                                <p>✅ Instant messages & Follow up</p>
+                                <p>✅ Personalised messages</p>
+                                <p>✅ Instant Reply</p>
+                                <p>✅ 24x7 supports</p>
+                                <p>✅ Increases conversion</p>
+                            </div>
+                        </div>
+                        <img class="px-3  w-[200px] md:w-[400px] my-auto" src="assests/marketing2.png">
+                    </div>
+                </div>
+
+                <div class="flex justify-between p-2">
+                    <button
+                        class="p-3 text-xl backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white rounded-full border "
+                        onclick="plusDivs(-1)">&#10094;</button>
+                    <button
+                        class="p-3 text-xl backdrop-filter backdrop-blur-sm bg-opacity-10 bg-white rounded-full border "
+                        onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <div id="checkoutPages" class=" my-[7vw] flex flex-col justify-center items-center mx-auto">
+                <h1 class="text-2xl md:text-5xl font-bold">
+                    Custom <span class="text"> Checkout Pages</span>
+                </h1>
+                <div class="flex mt-[7vw] w-full  justify-center gap-10">
+                    <div id="checkleft" class="hidden  md:flex flex-col w-[35%]">
+                        <div>
+                            <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(14).webp" alt=""
+                                class="bouncing-element">
+                        </div>
+                        <div class="flex flex-col gap-5 text-2xl font-semibold mt-[3vw]">
+                            <p>🚀 Support high quality Images</p>
+                            <p>🚀 Conversion-Driven Layout</p>
+                            <p>🚀 Coupon Pop out to increase conversion</p>
+                            <p>🚀 Upsell & Cross sell</p>
+                            <p>🚀 PC & Mobile optimised designs</p>
+
+                        </div>
+                    </div>
+                    <div id="checkright" class="flex flex-col md:w-[45%] justify-center items-center ">
+                        <div class="text-center md:text-left md:text-2xl font-[500] ">
+                            <p>With custom checkout pages, you can take control of the entire purchasing process by
+                                optimising it for specific products and highlighting extra benefits and descriptions to
+                                boost conversions.</p>
+                        </div>
+                        <div class="md:-translate-x-40">
+                            <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(10).webp" alt=""
+                                class="bouncing-element">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- payment section -->
+            <section id="payment">
+                <div class="flex flex-col sm:flex items-center sm:items-center ">
+                    <h1 class="text-3xl md:text-5xl font-medium mb-8 text-white pb-[3vw] text-center"> Choose Your
+                        Payment
+                        Gateway you want</h1>
+
+                    <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-10  md:w-[1350px] ">
+                        <!-- Card 1 -->
+                        <div class=" borderSpecial p-[2px] rounded-2xl ">
+                            <div
+                                class="bg-[#151414] rounded-2xl flex flex-col  items-center mx-auto p-6 gap-5 md:h-[390px] h-[250px]">
+                                <img src="https://iili.io/JACOx0g.webp" alt="" class="mt-[2vw] rounded-2xl w-40 h-12">
+
+                                <p class="text-center text-3xl pt-[3vw]">Quest For Excellence </p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class=" borderSpecial p-[2px] rounded-2xl ">
+                            <div
+                                class="bg-[#151414] rounded-2xl flex flex-col  items-center mx-auto p-6 gap-5 md:h-[390px] h-[250px]">
+                                <img src="https://iili.io/JACO9fe.webp" alt="" class="mt-[2vw] rounded-2xl w-40 h-12">
+
+                                <p class="text-center text-3xl md:pt-[3vw]">Trusted by enterprises <br> Loved by
+                                    developers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Laptop image section -->
+
+
+
+            <section id="laptop_images" class="mt-[10vw]">
+                <div class="md:w-[922px] mx-auto">
+                    <img src="https://iili.io/JAI635Q.jpg" alt="" class="">
+
+                </div>
+            </section>
+
+            <!-- Templates section -->
+
+            <section id="Templates" class="mt-[7vw]">
+                <div>
+                    <div class="">
+                        <h1 class="text-2xl md:text-5xl text-white text-center leading-[1.4]  font-bold">Access Over
+                            <span class="text">1000+
+                                Templates, Images & Icons</span> <br> Instantly Available
+                            for all your projects!
+                        </h1>
+                    </div>
+
+                    <div class="my-[30px] md:mt-[3vw]">
+                        <h2 class="text-white text-center  font-medium md:text-3xl leading-[1.2]"> Search any keyword &
+                            Instantly import stunning media for your projects in Just 1 click. And It’s Royalty free
+                            for commercial uses!</h2>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Details section -->
+            <section class="mt-[3vw]">
+                <div class="mx-auto flex justify-center">
+                    <img src="https://iili.io/JATLjkJ.webp" alt="">
+                </div>
+            </section>
+
+            <!-- Features section -->
+            <section class="mt-[50px] md:mt-[7vw]">
+                <div>
+                    <h1 class="text-white text-3xl md:text-5xl text-center font-semibold">
+                        Bizfunnel Features for Landing Page!
+                    </h1>
+                </div>
+
+
+                <div class="grid md:grid-cols-2 grid-rows-4 gap-10  relative mt-[6vw]">
+
+                    <!-- card 1 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw]">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                    <!-- card 4 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                    <!-- card 6 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+                    <!-- card 7 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                    <!-- card 8 -->
+                    <div
+                        class="bg-[#1B1D24] rounded-3xl shadow-md flex flex-col items-center border-2 border-green-500 gap-[3vw] ">
+                        <img src="https://iili.io/JA0OXZQ.png"
+                            class="w-[370px] h-[270px] items-center mt-[2vw] p-2 md:p-0">
+                        <h1 class="text-white  text-3xl font-bold">Fast Speed</h1>
+                        <h3 class="text-white text-center text-2xl font-medium pb-[4vw]">
+                            Lightning-fast loading for an exceptional user experience.
+                        </h3>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="mt-[40px] md:mt-[5vw]">
+                <div>
+                    <div class="flex md:flex-row flex-col justify-center items-center gap-10">
+                        <img src="https://iili.io/JRJWDqG.png" alt="" class="">
+                        <img src="https://iili.io/JRJXkpS.png" alt="">
+                        <p class="text-white md:text-lg">4.8 out of 5 (review rating) Over 1,200+ reviews</p>
+                    </div>
+
+
+                    <div class="mt-[3vw]">
+                        <h1 class="text-3xl md:text-5xl font-medium text-center leading-[1.4]">Highly Rated 4.8 Out of 5
+                            by 1,200+
+                            <br>
+                            Entrepreneurs Just Like you!
+                        </h1>
+
+                    </div>
+
+                    <div class="mt-[3vw]">
+                        <p class="text-white text-lg md:text-4xl  leading-[1.3] text-center">Join the global community
+                            of
+                            entrepreneurs, business
+                            owners, freelancers, and marketers using CreateStudio to create stunning, high converting
+                            sales videos to grow their business!</p>
+
+                    </div>
+
+                    <!-- global testimonial  -->
+                    <div class="mt-[3vw]">
+                        <div class="text-gray-600 dark:text-gray-300" id="reviews">
+
+                            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+
+                                <div class="md:columns-2 lg:columns-3 gap-8 space-y-8">
+
+                                    <div
+                                        class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                                        <div class="flex gap-4">
+                                            <img class="w-12 h-12 rounded-full"
+                                                src="https://randomuser.me/api/portraits/women/12.jpg" alt="user avatar"
+                                                width="400" height="400" loading="lazy">
+                                            <div>
+                                                <h6 class="text-lg font-medium text-gray-700 dark:text-white">Daniella
+                                                    Doe</h6>
+                                                <p class="text-sm text-gray-500 dark:text-gray-300">Mobile dev</p>
+                                            </div>
+                                        </div>
+                                        <p class="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                                            aliquid quo eum quae quos
+                                            illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a
+                                            suscipit, ratione ea totam
+                                            ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+                                            laboriosam deleniti
+                                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero
+                                            voluptas veniam at
+                                            reprehenderit, veritatis harum et rerum.
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                                        <div class="flex gap-4">
+                                            <img class="w-12 h-12 rounded-full"
+                                                src="https://randomuser.me/api/portraits/women/14.jpg" alt="user avatar"
+                                                width="200" height="200" loading="lazy">
+                                            <div>
+                                                <h6 class="text-lg font-medium text-gray-700 dark:text-white">Jane doe
+                                                </h6>
+                                                <p class="text-sm text-gray-500 dark:text-gray-300">Marketing</p>
+                                            </div>
+                                        </div>
+                                        <p class="mt-8"> Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint
+                                            non cumque quis tempore
+                                            cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et
+                                            rerum.
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                                        <div class="flex gap-4">
+                                            <img class="w-12 h-12 rounded-full"
+                                                src="https://randomuser.me/api/portraits/women/18.jpg" alt="user avatar"
+                                                width="200" height="200" loading="lazy">
+                                            <div>
+                                                <h6 class="text-lg font-medium text-gray-700 dark:text-white">Yanick Doe
+                                                </h6>
+                                                <p class="text-sm text-gray-500 dark:text-gray-300">Developer</p>
+                                            </div>
+                                        </div>
+                                        <p class="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Architecto laboriosam deleniti
+                                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero
+                                            voluptas veniam at
+                                            reprehenderit, veritatis harum et rerum.
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                                        <div class="flex gap-4">
+                                            <img class="w-12 h-12 rounded-full"
+                                                src="https://randomuser.me/api/portraits/women/2.jpg" alt="user avatar"
+                                                width="200" height="200" loading="lazy">
+                                            <div>
+                                                <h6 class="text-lg font-medium text-gray-700 dark:text-white">Jane Doe
+                                                </h6>
+                                                <p class="text-sm text-gray-500 dark:text-gray-300">Mobile dev</p>
+                                            </div>
+                                        </div>
+                                        <p class="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Architecto laboriosam deleniti
+                                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero
+                                            voluptas veniam at
+                                            reprehenderit, veritatis harum et rerum.
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                                        <div class="flex gap-4">
+                                            <img class="w-12 h-12 rounded-full"
+                                                src="https://randomuser.me/api/portraits/women/62.jpg" alt="user avatar"
+                                                width="200" height="200" loading="lazy">
+                                            <div>
+                                                <h6 class="text-lg font-medium text-gray-700 dark:text-white">Andy Doe
+                                                </h6>
+                                                <p class="text-sm text-gray-500 dark:text-gray-300">Manager</p>
+                                            </div>
+                                        </div>
+                                        <p class="mt-8"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Architecto laboriosam
+                                            deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint
+                                            libero voluptas veniam at
+                                            reprehenderit, veritatis harum et rerum.
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        class="aspect-auto p-8 border border-gray-100 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none">
+                                        <div class="flex gap-4">
+                                            <img class="w-12 h-12 rounded-full"
+                                                src="https://randomuser.me/api/portraits/women/19.jpg" alt="user avatar"
+                                                width="400" height="400" loading="lazy">
+                                            <div>
+                                                <h6 class="text-lg font-medium text-gray-700 dark:text-white">Yanndy Doe
+                                                </h6>
+                                                <p class="text-sm text-gray-500 dark:text-gray-300">Mobile dev</p>
+                                            </div>
+                                        </div>
+                                        <p class="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Architecto laboriosam deleniti
+                                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero
+                                            voluptas veniam at
+                                            reprehenderit, veritatis harum et rerum.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- form section -->
+
+            <section class="my-[4vw] flex justify-center items-center">
+                <form class="max-w-sm mx-auto bg-green-600 py-7 px-5  rounded-xl">
+                    <div class="mb-5 ">
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+                        <input type="email" id="email"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                            placeholder="name@bizfunnel.com" required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Your password</label>
+                        <input type="password" id="password"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                            required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900">Repeat
+                            password</label>
+                        <input type="password" id="repeat-password"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                            required>
+                    </div>
+                    <div class="flex items-start mb-5">
+                        <div class="flex items-center h-5">
+                            <input id="terms" type="checkbox" value=""
+                                class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+                                required>
+                        </div>
+                        <label for="terms" class="ms-2 text-sm font-medium text-gray-900">I agree with
+                            the <a href="#" class="text-blue-800 hover:underline">terms and conditions</a></label>
+                    </div>
+                    <button type="submit"
+                        class="text-white bg-green-800 hover:bg-green-900 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Register
+                        new account</button>
+                </form>
+
+
+            </section>
+
+            <!-- End section -->
+
+            <footer class="bg-white rounded-lg shadow dark:bg-gray-900 -mx-[9vw]">
+                <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                    <div class="sm:flex sm:items-center sm:justify-between">
+                        <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                            <img src="assests/logo.jpg" class="h-8 rounded-full" alt="Bizfunnel Logo" />
+                            <span
+                                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Bizfunnel</span>
+                        </a>
+                        <ul
+                            class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                            <li>
+                                <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#"
+                            class="hover:underline">Bizfunnel</a>. All Rights
+                        Reserved.</span>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
