@@ -1,8 +1,3 @@
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('#main'),
-//     smooth: true
-// });
-
 
 function horizontalLoop(items, config) {
   items = gsap.utils.toArray(items);
