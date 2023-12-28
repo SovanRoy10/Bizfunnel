@@ -83,3 +83,17 @@ function showDivs(n) {
   }
   x[slideIndex - 1].style.display = "flex";
 }
+
+const checkbox = document.getElementById('check');
+const secondnav = document.getElementById('nav2');
+
+// Add event listener to the checkbox to toggle the visibility of secondnav
+checkbox.addEventListener('change', function () {
+    if (checkbox.checked) {
+        secondnav.classList.remove('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      
+    } else {
+        secondnav.classList.add('hidden');
+    }
+});
