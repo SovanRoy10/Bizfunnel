@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- component -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="assests/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .toggle_dot {
+            transition: all 0.3s ease-in-out;
+        }
+
+        input:checked~.toggle_dot {
+            transform: translateX(100%);
+            background-color: #12974c;
+        }
+    </style>
+</head>
+
+<body class="main2 text-white mb-20">
+
+
+
+    <h1 class="text-center font-bold text-5xl mt-[4vw] relative text-green-600">Our Pricing</h1>
+
+    <div class="flex flex-row justify-center  text-sm tracking-tight font-medium  my-[2vw]">
+        <p class="mx-3 translate-y-1">Annually</p>
+
+        <!-- Toggle Button -->
+        <label for="toggle" class="flex items-center cursor-pointer">
+            <!-- toggle -->
+            <div class="relative">
+                <!-- hidden input -->
+                <input id="toggle" type="checkbox" class="hidden" onclick="myFunction()" />
+                <!-- line -->
+                <div class="w-10 h-3 bg-gray-400 rounded-full shadow-inner translate-y-1"></div>
+                <!-- dot -->
+                <div class="toggle_dot absolute w-5 h-5 bg-white rounded-full shadow inset-y-0 left-0 ">
+                </div>
+            </div>
+        </label>
+
+        <p class="mx-3 translate-y-1">Monthly</p>
+    </div>
+
+    <div class="flex flex-col md:flex-row md:transform md:scale-75 lg:scale-100 justify-center gap-5">
+        <div
+            class="border-transparent rounded-lg text-center p-5 mx-auto md:mx-0 my-2 bg-gradient bg-white font-medium z-10  w-[300px]  md:w-[350px] backdrop-filter backdrop-blur-sm bg-opacity-10  border-white border h-fit">
+            <div class="py-4 flex flex-col">
+                <div class="text-black bg-white rounded p-2">
+                    <p class="text-5xl">Basic</p>
+                    <div id="month" class="font-bold text-4xl month hidden text-green-700">₹1,499/-</div>
+                    <div id="annual" class="font-bold text-4xl annual text-green-700">₹14,999/-</div>
+                </div>
+
+                <p class="mt-2">
+                    Ideal for Small Business and aspiring Digital Entrepreneurs
+                </p>
+                <hr>
+                <div class="text-sm my-3">Access to All Features and Updates</div>
+                <hr>
+                <div class="text-sm my-3">Setup Instant Whatsapp Notifications</div>
+                <hr>
+                <div class="text-sm my-3">Setup Your Private Domain and Payment Gateway</div>
+                <hr>
+                <div class="text-sm my-3">Capture Unlimited Payments at 7% Fees*</div>
+                <hr>
+                <div class="text-sm my-3">Get Priority Ticket Support with Inbuilt Help Desk</div>
+                <hr>
+
+
+                <div class="my-2">
+                    <button class="bg-[#393838] p-3 border-dashed border  w-full rounded">
+                        Create Upto 10 Funnels
+                    </button>
+
+                </div>
+                <div>
+                    <button class="buttonbg p-3 w-full rounded">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+        <div
+            class="border-transparent rounded-lg text-center p-5 mx-auto md:mx-0 my-2 bg-gradient bg-white font-medium z-10 w-[300px]  md:w-[350px] backdrop-filter backdrop-blur-sm bg-opacity-10  border-white border">
+            <div class="py-4 flex flex-col">
+                <div>
+                    <p class="bg-green-600 text-lg h-10 flex items-center justify-center rounded-t">Best Value For Money
+                        Plan 😍</p>
+                </div>
+                <div class="text-black bg-white rounded-b p-2">
+                    <p class="text-5xl">Advanced</p>
+                    <div id="month" class="font-bold text-4xl month hidden text-green-700">₹1,999/-</div>
+                    <div id="annual" class="font-bold text-4xl annual text-green-700">₹19,999/-</div>
+                </div>
+
+                <p class="mt-2">
+                    Ideal for Small Business and aspiring Digital Entrepreneurs
+                </p>
+                <hr>
+                <div class="text-sm my-3">Access to All Features and Updates</div>
+                <hr>
+                <div class="text-sm my-3">Setup Instant Whatsapp Notifications</div>
+                <hr>
+                <div class="text-sm my-3">Setup Your Private Domain and Payment Gateway</div>
+                <hr>
+                <div class="text-sm my-3">Capture Unlimited Payments at 5% Fees*</div>
+                <hr>
+                <div class="text-sm my-3">Get Priority Ticket Support with Inbuilt Help Desk</div>
+                <hr>
+
+
+                <div class="my-2">
+                    <button class="bg-[#393838] p-3 border-dashed border  w-full rounded">
+                        Create Upto 50 Funnels
+                    </button>
+
+                </div>
+                <div>
+                    <button class="buttonbg p-3 w-full rounded">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="border-transparent rounded-lg text-center p-5 mx-auto md:mx-0 my-2 bg-gradient bg-white font-medium z-10 w-[300px]  md:w-[350px] backdrop-filter backdrop-blur-sm bg-opacity-10  border-white border h-fit">
+            <div class="py-4 flex flex-col">
+                <div class="text-black bg-white rounded p-2">
+                    <p class="text-5xl">Expert</p>
+                    <div id="month" class="font-bold text-4xl month hidden text-green-700">₹2,499/-</div>
+                    <div id="annual" class="font-bold text-4xl annual text-green-700">₹24,999/-</div>
+                </div>
+
+                <p class="mt-2">
+                    Ideal for Small Business and aspiring Digital Entrepreneurs
+                </p>
+                <hr>
+                <div class="text-sm my-3">Access to All Features and Updates</div>
+                <hr>
+                <div class="text-sm my-3">Setup Instant Whatsapp Notifications</div>
+                <hr>
+                <div class="text-sm my-3">Setup Your Private Domain and Payment Gateway</div>
+                <hr>
+                <div class="text-sm my-3">Capture Unlimited Payments at 4% Fees*</div>
+                <hr>
+                <div class="text-sm my-3">Get Priority Ticket Support with Inbuilt Help Desk</div>
+                <hr>
+
+
+                <div class="my-2">
+                    <button class="bg-[#393838] p-3 border-dashed border  w-full rounded">
+                        Create Upto 100 Funnels
+                    </button>
+
+                </div>
+                <div>
+                    <button class="buttonbg p-3 w-full rounded">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JS for toggle-->
+    <script>
+        function myFunction() {
+            var x = document.querySelectorAll('.annual');
+            var y = document.querySelectorAll('.month');
+            for (var i = 0; i < x.length; i++) {
+                if (document.getElementById("toggle").checked == true) {
+                    x[i].classList.add('hidden');
+                    y[i].classList.remove('hidden');
+                } else {
+                    x[i].classList.remove('hidden');
+                    y[i].classList.add('hidden');
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
