@@ -22,17 +22,17 @@
                     <span>Bizfunnel</span></a>
             </div>
             <div id="secondnav" class=" hidden md:flex gap-[3vw]">
-                <a href="#"
+                <a href="/"
                     class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Home</a>
 
-                <a href="#"
+                <a href="#morefeatures"
                     class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Features</a>
-                <a href="#"
+                <a href="#twohands"
                     class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Templates</a>
-                <a href="#"
+                <a href="pricing.html" target="_blank"
                     class="hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100">Pricing</a>
             </div>
-            <div id="thirdnav" class="text-xs md:text-base flex gap-[2vw]">
+            <div id="thirdnav" class="text-xs md:text-base flex gap-[2vw] items-center">
                 <button
                     class="px-[7px] md:px-[1vw]  py-[5px] md:py-[0.5vw] bg-[#2C2A2C] border-[1px] border-gray-500 hover:border-[#FEFEFF] rounded-md duration-100">Log
                     In</button>
@@ -47,10 +47,24 @@
                         class="relative text-green-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-[#FEFEFF]">Buy
                         Now</span>
                 </a>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn md:hidden">
+                    <i class="ri-align-justify"></i>
+                </label>
             </div>
         </div>
 
-        <div id="hero" class="my-[3vw] md:mt-[4vw] mt-[20px]">
+
+        <div id="nav2" class="hidden flex gap-[3vw] h-fit flex-col items-center ">
+            <a href="/" class="border border-dashed px-4 py-1 rounded">Home</a>
+
+            <a href="#morefeatures" class="border border-dashed px-4 py-1 rounded">Features</a>
+            <a href="#twohands" class="border border-dashed px-4 py-1 rounded">Templates</a>
+            <a href="pricing.html" target="_blank" class="border border-dashed px-4 py-1 rounded">Pricing</a>
+        </div>
+
+
+        <div id="hero" class="my-[3vw] md:mt-[4vw] mt-[20px] ">
             <div id="firsthero" class="flex flex-col justify-center items-center mx-auto">
                 <h1 class="opacity-80 md:text-xl text-sm">⚡ NO Coding; AI-Powered 🤯</h1>
                 <h1
@@ -102,7 +116,7 @@
         </div>
 
         <div id="prebook"
-            class="mx-auto px-[25px] md:px-0 text-center text-sm md:text-2xl flex flex-col items-center justify-center md:gap-2 ">
+            class="mx-auto px-[25px] md:px-0 text-center text-sm md:text-2xl flex flex-col items-center justify-center md:gap-2">
             <p>Introducing Bizfunnel: The Ultimate AI-Powered Landing Page builder that requires no</p>
             <p>knowledge of Coding,
                 sales & Marketing or even copywriting to build high converting</p>
@@ -152,7 +166,7 @@
             </div>
         </div>
 
-        <div id="main2" class="px-[9.5vw] relative">
+        <div class="main2 px-[9.5vw] relative overflow-hidden">
             <div id="marqueeEffect" class="mt-[30px] md:mt-[3vw] ">
                 <h1 class="text-center text-3xl md:text-5xl font-semibold">More Lead, Better Conversion & 10x Revenue in
                     just 7
@@ -347,7 +361,7 @@
                 </div>
             </div>
 
-            <div id="twohandes" class="mt-[6vw] flex flex-col justify-center items-center">
+            <div id="twohands" class="mt-[6vw] flex flex-col justify-center items-center">
                 <h1 class="text-lg md:text-5xl font-semibold">Convert 🚀 like Crazy without Hiring a
                     <h1 class="text-xl md:text-5xl font-bold text">Copywriter!</h1>
                 </h1>
@@ -539,7 +553,7 @@
                         Payment
                         Gateway you want</h1>
 
-                    <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-10  md:w-[1350px] ">
+                    <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-10   md:w-[1000px]">
                         <!-- Card 1 -->
                         <div class=" borderSpecial p-[2px] rounded-2xl ">
                             <div
@@ -949,11 +963,13 @@
                 </div>
             </footer>
 
+
+
         </div>
     </div>
 
 
-   
+
     <!--  Gsap is needed for Basic Effects -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
