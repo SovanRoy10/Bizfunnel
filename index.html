@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bizfunnel</title>
+  
     <link rel="icon" type="image/x-icon" href="assests/logo.jpg">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,6 +15,8 @@
 
 <body>
     <div id="main">
+       
+
         <div id="nav"
             class="mt-3 md:mt-0 text-base md:text-2xl flex justify-between px-[2vw] py-[1.2vw] backdrop-filter backdrop-blur-sm bg-opacity-10 sticky top-0 bg-[#101110] z-[999] items-center">
             <div id="firstnav">
@@ -34,7 +37,7 @@
             </div>
             <div id="thirdnav" class="text-xs md:text-base flex gap-[2vw] items-center">
                 <button
-                    class="px-[7px] md:px-[1vw]  py-[5px] md:py-[0.5vw] bg-[#2C2A2C] border-[1px] border-gray-500 hover:border-[#FEFEFF] rounded-md duration-100">Log
+                    class="hidden md:block px-[7px] md:px-[1vw]  py-[5px] md:py-[0.5vw] bg-[#2C2A2C] border-[1px] border-gray-500 hover:border-[#FEFEFF] rounded-md duration-100">Log
                     In</button>
                 <a href="#_"
                     class="relative inline-flex items-center justify-center px-2 py-1 md:px-6 md:py-3 md:font-medium tracking-tighter text-[#FEFEFF] bg-gray-800 rounded-md group">
@@ -48,8 +51,8 @@
                         Now</span>
                 </a>
                 <input type="checkbox" id="check">
-                <label for="check" class="checkbtn md:hidden">
-                    <i class="ri-align-justify"></i>
+                <label for="check" class="checkbtn md:hidden mx-[15px]">
+                    <i class="ri-align-justify text-2xl"></i>
                 </label>
             </div>
         </div>
@@ -64,9 +67,9 @@
         </div>
 
 
-        <div id="hero" class="my-[3vw] md:mt-[4vw] mt-[20px] ">
+        <div id="hero" class="mb-[3vw] md:mt-[80px] mt-[45px] ">
             <div id="firsthero" class="flex flex-col justify-center items-center mx-auto">
-                <h1 class="opacity-80 md:text-xl text-sm">⚡ NO Coding; AI-Powered 🤯</h1>
+                <h1 class="opacity-80 md:text-xl text-sm mb-2 md:mb-5">⚡ NO Coding; AI-Powered 🤯</h1>
                 <h1
                     class="text-[25px] md:text-[4.5vw] font-bold leading-[1.3] md:px-0 px-5 text-center md:mt-0 mt-[7px]">
                     Launch high converting
@@ -76,7 +79,7 @@
                         class="text-green-600">Pages</span> in 7 Minutes!
                 </h1>
 
-                <img class="w-[150px] md:w-[250px] opacity-70"
+                <img class="w-[150px] md:w-[250px] opacity-70 mt-3 md:my-3"
                     src="https://res.cloudinary.com/lpmaker/image/upload/v1687419114/Line-8_ghuujj.png" alt="signature">
 
             </div>
@@ -120,7 +123,7 @@
             <p>Introducing Bizfunnel: The Ultimate AI-Powered Landing Page builder that requires no</p>
             <p>knowledge of Coding,
                 sales & Marketing or even copywriting to build high converting</p>
-            <p>Landing pages!</p>
+            <p class="mb-[20px] md:mb-0">Landing pages!</p>
 
             <div
                 class="flex flex-col md:flex-row border-[1px] border-gray-500 bg-[#232223] mt-[3vw] pr-[3vw] py-[1vw] rounded-2xl">
@@ -152,14 +155,14 @@
 
             </div>
 
-            <div id="rating" class="flex flex-col md:flex-row gap-2 mt-[3vw] items-center">
+            <div id="rating" class="flex flex-col md:flex-row gap-2 mt-[25px] md:mt-[4vw] items-center">
                 <div>
-                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
-                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
-                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
-                    <i class="ri-star-s-fill text-yellow-400 md:text-2xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-6xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-6xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-6xl text-4xl"></i>
+                    <i class="ri-star-s-fill text-yellow-400 md:text-6xl text-4xl"></i>
 
-                    <i class="ri-star-half-s-line text-yellow-400 md:text-2xl text-4xl"></i>
+                    <i class="ri-star-half-s-line text-yellow-400 md:text-6xl text-4xl"></i>
                 </div>
                 <p class="text-sm md:text-base font-semibold opacity-80">4.8 out of 5 (review rating) Over 1,200+
                     reviews</p>
@@ -167,8 +170,10 @@
         </div>
 
         <div class="main2 px-[9.5vw] relative overflow-hidden">
-            <div id="marqueeEffect" class="mt-[30px] md:mt-[3vw] ">
-                <h1 class="text-center text-3xl md:text-5xl font-semibold">More Lead, Better Conversion & 10x Revenue in
+            <div id="marqueeEffect" class="mt-[50px] md:mt-[7.5vw] ">
+                <h1 class="text-center  text-3xl md:text-5xl font-semibold" style="line-height: 1.2;">More Lead, Better
+                    Conversion &
+                    10x Revenue in
                     just 7
                     minutes with <span class="text">Bizfunnel landing pages!</span></h1>
 
@@ -268,12 +273,16 @@
             <div id="marketing"
                 class="flex md:flex-row flex-col px-[2vw] w-full rounded-t-[25px]  justify-between mt-[6vw]">
                 <div class="md:w-[55%] px-[3vw] flex flex-col items-center md:items-start">
-                    <h1 class="text-2xl md:text-[3vw] leading-[1.2] md:leading-[1] font-[500] my-[3vw]">Track Data from
+                    <h1
+                        class="text-2xl md:text-[3.24vw] leading-[1.2] md:leading-[1.3] mt-[30px] md:mt-[75px] mb-[20px] tracking-wide font-semibold text-center md:text-left">
+                        Track Data from
                         all platforms, like Meta Ads,
                         Google Ads for better tracking, optimization &
                         Scaling
                     </h1>
-                    <p class="text-xs md:text-2xl md:font-[400] my-[2vw]">Revolutionize the way you utilize data and AI
+                    <p
+                        class="text-xs md:text-2xl md:font-[400] mt-[1vw] mb-[20px] md:mb-[40px] text-center md:text-left">
+                        Revolutionize the way you utilize data and AI
                         to enhance
                         your Traffic and Sales, while minimizing
                         CPC
@@ -315,9 +324,9 @@
                 </div>
             </div>
 
-            <div id="morefeatures" class="flex flex-col justify-center items-center mx-auto mt-[6vw] text-center">
-                <h1 class="text-2xl md:text-7xl font-bold">There is more that</h1>
-                <h1 class="text-2xl md:text-7xl font-bold">Bizfunnel can do for you</h1>
+            <div id="morefeatures" class="flex flex-col justify-center items-center mx-auto mt-[9vw] text-center">
+                <h1 class="text-2xl md:text-7xl font-bold my-2 md:my-4">There is more that</h1>
+                <h1 class="text-2xl md:text-7xl font-bold mb-5">Bizfunnel can do for you</h1>
                 <p class=" md:text-2xl md:font-semibold mt-[3vw]">With Bizfunnel, you not only sell but also entertain
                     your
                     customers without writing</p>
@@ -326,7 +335,8 @@
                         effortlessly.</span>
                 </p>
 
-                <div id="features" class="my-[3vw] flex flex-col md:flex-row justify-between gap-7 md:gap-10">
+                <div id="features"
+                    class="mt-[40px] md:mt-[5vw] mb-[3vw] flex flex-col md:flex-row justify-between gap-7 md:gap-10">
                     <div class=" borderSpecial p-[2px] rounded-2xl w-[300px] ">
                         <div
                             class="bg-[#151414] rounded-2xl flex flex-col justify-center items-center mx-auto p-6 gap-5 h-[390px]">
@@ -362,22 +372,27 @@
             </div>
 
             <div id="twohands" class="mt-[6vw] flex flex-col justify-center items-center">
-                <h1 class="text-lg md:text-5xl font-semibold">Convert 🚀 like Crazy without Hiring a
-                    <h1 class="text-xl md:text-5xl font-bold text">Copywriter!</h1>
-                </h1>
+                <h1 class="text-2xl md:text-5xl font-semibold my-[5px] md:my-4 text-center leading-[1.5]">Convert 🚀
+                    like Crazy without Hiring a</h1>
+                <h1 class="text-2xl md:text-5xl font-bold text text-center mb-[20px] md:mb-[50px]">Copywriter!</h1>
                 <div class="mt-[5vw] flex md:flex-row flex-col justify-center gap-10 ">
-                    <div class="md:w-[35%]">
-                        <h1 class="text-xl md:text-4xl font-bold text-center md:text-left">Create Compelling, Engaging &
+                    <div class="md:w-[35%] z-50">
+                        <h1 class="text-xl md:text-4xl font-semibold text-center md:text-left"
+                            style="line-height: 1.3;">Create Compelling,
+                            Engaging &
                             Converting Copies
                             within Minute
                             without hiring copywriter</h1>
-                        <p class="text-xs md:text-2xl md:font-normal my-[3vw] text-center md:text-left">Bizfunnel's AI
+                        <p class="text-xs md:text-2xl md:font-normal my-[30px] md:my-[3vw] text-center md:text-left"
+                            style="line-height: 1.4;">Bizfunnel's AI
                             is
                             expertly trained to
                             generate persuasive
                             copy that perfectly matches your
                             brand's voice, ensuring it feels authentic. With lightning-fast speed, it delivers
-                            attention-grabbing headlines, converting bullet points, and compelling descriptions.</p>
+                            attention-grabbing headlines, converting bullet points, and compelling descriptions.
+                        </p>
+
                         <div class="flex justify-center md:justify-start">
                             <a href="#_"
                                 class="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-green-600 transition duration-300 ease-out rounded-full shadow-xl group hover:ring-1 hover:ring-green-500 ">
@@ -390,7 +405,7 @@
                         </div>
 
                         <div
-                            class="mt-[20px] md:mt-[3vw] bg-[#1C1B26] p-4 md:p-8 rounded-xl w-60 md:w-80 flex flex-col gap-2 md:gap-5 md:translate-x-52 ml-auto md:ml-0">
+                            class="mt-[40px] md:mt-[3vw] bg-[#1C1B26] p-4 md:p-8 rounded-xl w-60 md:w-80 flex flex-col gap-2 md:gap-5 md:translate-x-52 ml-auto md:ml-0">
                             <h2 class="md:text-2xl font-semibold text-center">AI Content 🤯</h2>
                             <p class="text-xs md:text-base text-[#88898A] font-bold">Title</p>
                             <div class="h-6 md:h-9 w-full bg-[#88898A] rounded-lg"></div>
@@ -406,8 +421,8 @@
                                 class="-mx-[16vw] -translate-y-32 md:-translate-y-0">
                         </div>
                     </div>
-                    <div class="md:w-[50%]">
-                        <div class="max-h-[70vh] md:max-h-[200vh] scroll-container rounded-2xl">
+                    <div class="md:w-[50%] z-0">
+                        <div class="max-h-[70vh] md:max-h-[200vh] scroll-container rounded-2xl -translate-y-24 md:-translate-y-0">
                             <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(24).webp" alt="">
                         </div>
 
@@ -417,7 +432,7 @@
                                 class="mx-[14vw] -translate-y-6 ">
 
                             <div
-                                class="max-h-[370px] scroll-container -translate-y-[470px] translate-x-[275px] rounded-2xl ">
+                                class="max-h-[370px] scroll-container absolute -translate-y-[470px] translate-x-[275px] rounded-2xl ">
                                 <img src="https://www.myzer.ai/assets/ezgif.com-gif-maker%20(22).webp" alt=""
                                     class="w-[170px]  rounded-2xl">
                             </div>
@@ -428,7 +443,7 @@
             </div>
 
             <div id="slider"
-                class="relative mt-[20px] md:mt-[4vw] flex flex-col md:w-[900px] mx-auto bg-[#2C272A] border border-gray-500 rounded-2xl">
+                class="relative mt-[20px] md:mt-[vw] flex flex-col md:w-[900px] mx-auto bg-[#2C272A] border-[3px] border-gray-500 rounded-2xl">
                 <div class="flex justify-center items-center ">
                     <div class="mySlides flex md:flex-row flex-col justify-center items-center">
 
@@ -748,7 +763,7 @@
                     </div>
 
                     <!-- global testimonial  -->
-                    <div class="mt-[3vw]">
+                    <div class="my-[3vw]">
                         <div class="text-gray-600 dark:text-gray-300" id="reviews">
 
                             <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
@@ -890,76 +905,80 @@
                 </div>
             </section>
 
-            <!-- form section -->
+            <!-- Faq section -->
 
-            <section class="my-[4vw] flex justify-center items-center">
-                <form class="max-w-sm mx-auto bg-green-600 py-7 px-5  rounded-xl">
-                    <div class="mb-5 ">
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
-                        <input type="email" id="email"
-                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                            placeholder="name@bizfunnel.com" required>
-                    </div>
-                    <div class="mb-5">
-                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Your password</label>
-                        <input type="password" id="password"
-                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                            required>
-                    </div>
-                    <div class="mb-5">
-                        <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900">Repeat
-                            password</label>
-                        <input type="password" id="repeat-password"
-                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                            required>
-                    </div>
-                    <div class="flex items-start mb-5">
-                        <div class="flex items-center h-5">
-                            <input id="terms" type="checkbox" value=""
-                                class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
-                                required>
-                        </div>
-                        <label for="terms" class="ms-2 text-sm font-medium text-gray-900">I agree with
-                            the <a href="#" class="text-blue-800 hover:underline">terms and conditions</a></label>
-                    </div>
-                    <button type="submit"
-                        class="text-white bg-green-800 hover:bg-green-900 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Register
-                        new account</button>
-                </form>
-
-
-            </section>
+   
+            
 
             <!-- End section -->
 
-            <footer class="bg-white rounded-lg shadow dark:bg-gray-900 -mx-[9vw]">
-                <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-                    <div class="sm:flex sm:items-center sm:justify-between">
-                        <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                            <img src="assests/logo.jpg" class="h-8 rounded-full" alt="Bizfunnel Logo" />
-                            <span
-                                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Bizfunnel</span>
-                        </a>
-                        <ul
-                            class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                            <li>
-                                <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                            </li>
-                            <li>
-                                <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                            </li>
-                            <li>
-                                <a href="#" class="hover:underline">Contact</a>
-                            </li>
-                        </ul>
+            <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800 md:-mx-[10vw] -mx-[37px]">
+                <div class="mx-auto max-w-screen-xl">
+                    <div class="md:flex md:justify-between">
+                        <div class="mb-6 md:mb-0">
+                            <a href="https://flowbite.com" class="flex items-center">
+                                <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
+                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                            </a>
+                        </div>
+                        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                            <div>
+                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                                <ul class="text-gray-600 dark:text-gray-400">
+                                    <li class="mb-4">
+                                        <a href="https://flowbite.com" class="hover:underline">Flowbite</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                                <ul class="text-gray-600 dark:text-gray-400">
+                                    <li class="mb-4">
+                                        <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                                <ul class="text-gray-600 dark:text-gray-400">
+                                    <li class="mb-4">
+                                        <a href="#" class="hover:underline">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-                    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#"
-                            class="hover:underline">Bizfunnel</a>. All Rights
-                        Reserved.</span>
+                    <div class="sm:flex sm:items-center sm:justify-between">
+                        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                        </span>
+                        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" /></svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </footer>
 
@@ -975,6 +994,8 @@
 
     <!-- Scroll Trigger is needed for Scroll Effects -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  
 
     <script src="script.js"></script>
 
