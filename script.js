@@ -84,16 +84,24 @@ function showDivs(n) {
   x[slideIndex - 1].style.display = "flex";
 }
 
-const checkbox = document.getElementById('check');
-const secondnav = document.getElementById('nav2');
 
-// Add event listener to the checkbox to toggle the visibility of secondnav
-checkbox.addEventListener('change', function () {
-    if (checkbox.checked) {
-        secondnav.classList.remove('hidden');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      
-    } else {
-        secondnav.classList.add('hidden');
-    }
-});
+function openAnsSection(val) {
+  var p = document.getElementById("para" + val);
+  var svg = document.getElementById("path" + val);
+
+  if (p.classList.contains("hidden")) {
+      p.classList.remove("hidden");
+      p.classList.add("block");
+  } else {
+      p.classList.remove("block");
+      p.classList.add("hidden");
+  }
+
+  if (svg.classList.contains("hidden")) {
+      svg.classList.remove("hidden");
+      svg.classList.add("block");
+  } else {
+      svg.classList.remove("block");
+      svg.classList.add("hidden");
+  }
+}
