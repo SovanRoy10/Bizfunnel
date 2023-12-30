@@ -84,24 +84,47 @@ function showDivs(n) {
   x[slideIndex - 1].style.display = "flex";
 }
 
+//faq
 
 function openAnsSection(val) {
   var p = document.getElementById("para" + val);
   var svg = document.getElementById("path" + val);
 
   if (p.classList.contains("hidden")) {
-      p.classList.remove("hidden");
-      p.classList.add("block");
+    p.classList.remove("hidden");
+    p.classList.add("block");
   } else {
-      p.classList.remove("block");
-      p.classList.add("hidden");
+    p.classList.remove("block");
+    p.classList.add("hidden");
   }
 
   if (svg.classList.contains("hidden")) {
-      svg.classList.remove("hidden");
-      svg.classList.add("block");
+    svg.classList.remove("hidden");
+    svg.classList.add("block");
   } else {
-      svg.classList.remove("block");
-      svg.classList.add("hidden");
+    svg.classList.remove("block");
+    svg.classList.add("hidden");
   }
 }
+
+
+// 3dot navbar
+document.addEventListener('DOMContentLoaded', function () {
+
+  var open = document.getElementById('openButton');
+  var close = document.getElementById('closeButton');
+
+  // Open the modal
+  open.addEventListener('click', function () {
+    open.style.display = 'none';
+    close.style.display = 'block'
+  });
+
+  close.addEventListener('click', function () {
+    close.style.display = 'none';
+    open.style.display = 'block'
+  });
+
+
+})
+

@@ -39,6 +39,9 @@ html {
 .main2 {
     background-image: url("assests/background.png");
 }
+.main3 {
+    background-image: url("assests/background2.png");
+}
 
 #marketing {
     background-image: linear-gradient(to bottom, #22c55e, #2b9349, #286435, #1f3923, #101110);
