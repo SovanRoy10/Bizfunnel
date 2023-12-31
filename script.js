@@ -108,23 +108,3 @@ function openAnsSection(val) {
 }
 
 
-// 3dot navbar
-document.addEventListener('DOMContentLoaded', function () {
-
-  var open = document.getElementById('openButton');
-  var close = document.getElementById('closeButton');
-
-  // Open the modal
-  open.addEventListener('click', function () {
-    open.style.display = 'none';
-    close.style.display = 'block'
-  });
-
-  close.addEventListener('click', function () {
-    close.style.display = 'none';
-    open.style.display = 'block'
-  });
-
-
-})
-
