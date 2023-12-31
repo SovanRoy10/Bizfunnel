@@ -17,9 +17,11 @@
 <body>
     <div id="main">
 
+
         <!-- Main modal -->
+
         <div id="default-modal" tabindex="-1" aria-hidden="true"
-            class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-[999] justify-center items-center w-full md:inset-0 h-[calc(90%-1rem)] max-h-full">
+            class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-[999] justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
             <div class="relative p-4 w-full max-w-2xl max-h-full">
                 <!-- Modal content -->
                 <div class="relative  bg-[#1F2937] rounded-lg shadow">
@@ -54,81 +56,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <nav
-            class="mt-3 md:mt-0 text-white w-full z-[999] top-0 start-0 backdrop-filter backdrop-blur-sm bg-opacity-10 sticky  bg-[#101110]  px-[2vw] py-[1.2vw] md:text-2xl text-base overflow-hidden">
-
-            <div id="alert-border-3"
-                class="w-[100vw]  flex items-center p-4 mb-4  border-t-4 text-green-400 bg-gray-800 border-green-800 -mx-[2vw] -my-[1.2vw] "
-                role="alert">
-
-                <div class="ms-3 text-sm font-medium">
-                    A simple success alert with an <a href="#"
-                        class="font-semibold underline hover:no-underline">example
-                        link</a>. Give it a click if you like.
-                </div>
-                <button type="button"
-                    class="ms-auto -mx-1.5 -my-1.5  rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 inline-flex items-center justify-center h-8 w-8 bg-gray-800 text-green-400 hover:bg-gray-700 md:mr-5"
-                    data-dismiss-target="#alert-border-3" aria-label="Close">
-                    <span class="sr-only">Dismiss</span>
-                    <i class="ri-xrp-line"></i>
-                </button>
-            </div>
-
-            <div class=" flex flex-wrap items-center justify-between mx-auto">
-                <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="assests/logo.jpg" class="h-8 rounded-full" alt="Bizfunnel Logo">
-                    <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap">Bizfunnel</span>
-                </a>
-                <div class="text-xs md:text-base flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-[2vw]">
-                    <button
-                        class="hidden md:block px-[7px] md:px-[1vw]  py-[5px] md:py-[0.5vw] bg-[#2C2A2C] border-[1px] border-gray-500 hover:border-[#FEFEFF] rounded-md duration-100">Log
-                        In</button>
-                    <a href="#_"
-                        class="relative inline-flex items-center justify-center px-2 py-1 md:px-6 md:py-3 md:font-medium tracking-tighter text-[#FEFEFF] bg-gray-800 rounded-md group">
-                        <span
-                            class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-green-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
-                        <span class="absolute inset-0 w-full h-full bg-[#FEFEFF] rounded-md "></span>
-                        <span
-                            class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-green-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-                        <span
-                            class="relative text-green-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-[#FEFEFF]">Buy
-                            Now</span>
-                    </a>
-                    <button data-collapse-toggle="navbar-sticky" type="button"
-                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
-                        aria-controls="navbar-sticky" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <i class="ri-align-justify text-3xl" id="openButton"></i>
-                        <i class="ri-close-fill text-3xl hidden" id="closeButton"></i>
-                    </button>
-                </div>
-                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 "
-                    id="navbar-sticky">
-                    <ul id="myModal"
-                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:gap-[3vw] rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  md:items-center md:bg-transparent bg-[#232223]">
-                        <li>
-                            <a href="/"
-                                class="navLink block py-2 px-3 md:hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100 active:bg-green-600 rounded md:active:bg-transparent"
-                                aria-current="page">Home</a>
-                        </li>
-                        <li>
-                            <a href="#morefeatures"
-                                class="navLink block py-2 px-3 md:p-0 md:hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100 active:bg-green-600 rounded md:active:bg-transparent">Features</a>
-                        </li>
-                        <li>
-                            <a href="#twohands"
-                                class="navLink block py-2 px-3 md:p-0 md:hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100 active:bg-green-600 rounded md:active:bg-transparent">Templates</a>
-                        </li>
-                        <li>
-                            <a href="pricing.html" target="_blank"
-                                class="navLink block py-2 px-3 md:p-0 md:hover:underline decoration-green-600 underline-offset-8  decoration-2 duration-100 active:bg-green-600 rounded md:active:bg-transparent">Pricing</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
-
 
 
         <div id="nav"
@@ -183,7 +110,7 @@
                             class="relative text-green-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-[#FEFEFF]">Buy
                             Now</span>
                     </a>
-                    <button data-modal-target="default-modal" data-modal-toggle="default-modal"
+                    <button data-modal-target="default-modal" data-modal-toggle="default-modal" id="modalButton"
                         class="block mx-[15px] md:hidden" type="button">
                         <i class="ri-align-justify text-[24px]"></i>
                     </button>
@@ -1055,14 +982,17 @@
                 </div>
                 <div class="flex md:flex-row flex-col md:space-x-8 md:mt-16 mt-8">
                     <div class="md:w-5/12 lg:w-4/12 w-full">
-                        <img src="https://i.ibb.co/8bCs73h/pexels-ron-lach-8128069-1.png" alt="Image of Glass bottle" class="w-full md:block hidden" />
-                        <img src="https://i.ibb.co/gZMfQJq/pexels-ron-lach-8128069-1-1.png" alt="Image of Glass bottle" class="w-full md:hidden block" />
+                        <img src="https://i.ibb.co/8bCs73h/pexels-ron-lach-8128069-1.png" alt="Image of Glass bottle"
+                            class="w-full md:block hidden" />
+                        <img src="https://i.ibb.co/gZMfQJq/pexels-ron-lach-8128069-1-1.png" alt="Image of Glass bottle"
+                            class="w-full md:hidden block" />
                     </div>
                     <div class="md:w-7/12 lg:w-8/12 w-full md:mt-0 sm:mt-14 mt-10">
                         <!-- Shipping Section -->
                         <div>
                             <div class="flex justify-between items-center cursor-pointer">
-                                <h3 class="font-semibold md:text-xl  text-white leading-5 ">How long does it take to build
+                                <h3 class="font-semibold md:text-xl  text-white leading-5 ">How long does it take to
+                                    build
                                     an online membership?</h3>
                                 <button aria-label="too"
                                     class=" text-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
@@ -1076,7 +1006,8 @@
                                     </svg>
                                 </button>
                             </div>
-                            <p id="para1" class="hidden font-normal text-gray-400 text-sm md:text-base leading-6  mt-4 w-11/12">
+                            <p id="para1"
+                                class="hidden font-normal text-gray-400 text-sm md:text-base leading-6  mt-4 w-11/12">
                                 With pre-designed ClickFunnels templates, you can get your membership site up and
                                 running in as little as a few minutes. Since ClickFunnels is an all-in-one system,
                                 there’s no need for any 3rd party programs while you build, promote, and sell your
@@ -1103,7 +1034,8 @@
                                     </svg>
                                 </button>
                             </div>
-                            <p id="para2" class="hidden font-normal text-gray-400 text-sm md:text-base leading-6  mt-4 w-11/12">
+                            <p id="para2"
+                                class="hidden font-normal text-gray-400 text-sm md:text-base leading-6  mt-4 w-11/12">
                                 No! Everything about ClickFunnels is designed to be simple! The ClickFunnels Page Editor
                                 is “drag and drop” easy. You don’t need to be a tech-wizard, or coder in order to build
                                 a membership site. And you don’t have to HIRE a tech team in order to build out your
@@ -1133,7 +1065,8 @@
                                     </svg>
                                 </button>
                             </div>
-                            <p id="para3" class="hidden font-normal text-gray-400 text-sm md:text-base leading-6 mt-4 w-11/12">
+                            <p id="para3"
+                                class="hidden font-normal text-gray-400 text-sm md:text-base leading-6 mt-4 w-11/12">
                                 Yes! ClickFunnels provides a variety of membership site templates for those who aren’t
                                 designers, while still being flexible enough to start from scratch if you’d like.</p>
                         </div>
@@ -1158,12 +1091,13 @@
                                     </svg>
                                 </button>
                             </div>
-                            <p id="para4" class="hidden font-normal text-gray-400 text-sm md:text-base leading-6  mt-4 w-11/12">
+                            <p id="para4"
+                                class="hidden font-normal text-gray-400 text-sm md:text-base leading-6  mt-4 w-11/12">
                                 No, users keep every penny they make selling memberships using the ClickFunnels
                                 platform.</p>
                         </div>
                         <div>
-                          
+
                         </div>
 
                         <hr class="my-7 bg-gray-200" />

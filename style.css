@@ -196,8 +196,5 @@ html {
     background: linear-gradient(87deg, rgba(88, 228, 109, 1) 0%, rgba(11, 84, 34, 1) 100%);
 }
 
-#check{
-    display: none;
-}
 
 @tailwind utilities;

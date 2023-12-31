@@ -108,3 +108,16 @@ function openAnsSection(val) {
 }
 
 
+let tl = gsap.timeline()
+
+
+
+const modalButton = document.getElementById("modalButton");
+
+modalButton.addEventListener('click', () => {
+  tl.from("#default-modal", {
+    x: 200,
+    duration: 0.4,
+    opacity: 0,
+  })
+});
