@@ -131,7 +131,6 @@ modalButton.addEventListener('click', () => {
     scrollTrigger: {
       trigger: "#ulOne li",
       scroller: "body",
-      // markers: true,
       start: "top 70%",
       end: "top 40%",
       scrub: 2
@@ -144,7 +143,6 @@ modalButton.addEventListener('click', () => {
     scrollTrigger: {
       trigger: "#ulTwo li",
       scroller: "body",
-      // markers: true,
       start: "top 70%",
       end: "top 40%",
       scrub: 2
