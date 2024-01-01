@@ -117,7 +117,6 @@ const modalButton = document.getElementById("modalButton");
 modalButton.addEventListener('click', () => {
   tl.from("#default-modal", {
     x: 200,
-    duration: 0.4,
-    opacity: 0,
+    duration: 0.4
   })
 });
