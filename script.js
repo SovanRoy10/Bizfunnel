@@ -120,3 +120,36 @@ modalButton.addEventListener('click', () => {
     duration: 0.4
   })
 });
+
+
+
+tl
+  .add('start')
+  .from('#ulOne li', {
+    x: -1400,
+    duration: 1,
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: "#ulOne li",
+      scroller: "body",
+      // markers: true,
+      start: "top 70%",
+      end: "top 40%",
+      scrub: 2
+
+    }
+  }, 'start')
+  .from('#ulTwo li', {
+    x: 1400,
+    duration: 1,
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: "#ulTwo li",
+      scroller: "body",
+      // markers: true,
+      start: "top 70%",
+      end: "top 40%",
+      scrub: 2
+
+    }
+  }, 'start')
